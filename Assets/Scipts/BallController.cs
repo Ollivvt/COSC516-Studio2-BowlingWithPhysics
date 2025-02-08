@@ -5,6 +5,7 @@ public class BallController : MonoBehaviour
 {
     [SerializeField] private float force = 1f;
     [SerializeField] private Transform ballAnchor;
+    [SerializeField] private Transform launchIndicator;
     private bool isBallLaunched;
     private bool isInGutter;
     private Rigidbody ballRigidBody;
@@ -45,6 +46,7 @@ public class BallController : MonoBehaviour
         transform.parent = null;
         ballRigidBody.isKinematic = false;
         ballRigidBody.AddForce(transform.forward * force, ForceMode.Impulse);
+        launchIndicator.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)

@@ -69,6 +69,7 @@
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scipts/Gutter.cs" />
     <Compile Include="Assets/Scipts/BallController.cs" />
+    <Compile Include="Assets/Scipts/LaunchIndicator.cs" />
     <Compile Include="Assets/Scipts/InputManager.cs" />
   </ItemGroup>
   <ItemGroup>

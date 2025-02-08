@@ -425,6 +425,7 @@
 "Assets/Scipts/BallController.cs"
 "Assets/Scipts/Gutter.cs"
 "Assets/Scipts/InputManager.cs"
+"Assets/Scipts/LaunchIndicator.cs"
 "Assets/Scipts/Player.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
