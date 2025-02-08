@@ -419,6 +419,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scipts/BallController.cs"
+"Assets/Scipts/Gutter.cs"
 "Assets/Scipts/InputManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
