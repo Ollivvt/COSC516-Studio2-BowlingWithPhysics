@@ -444,6 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 30
+  ballAnchor: {fileID: 1870226406}
   inputManager: {fileID: 1810365472}
 --- !u!54 &587918771
 Rigidbody:
@@ -470,7 +471,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 2
 --- !u!135 &587918772
 SphereCollider:
@@ -1039,6 +1040,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1687939777}
+  - {fileID: 1870226406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1163237212
@@ -1191,6 +1193,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1870226405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870226406}
+  m_Layer: 0
+  m_Name: BallAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870226406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870226405}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.04, z: 1.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1163237211}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4240617357578403720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1336,6 +1369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gutter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7890997780594925977, guid: 4bf5a0be207fb44feae45917aa072419, type: 3}
+      propertyPath: m_TagString
+      value: Gutter
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1351,6 +1388,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5842393692293554157, guid: b1a593e3045fe4f18b61d7ee009a9176, type: 3}
       propertyPath: m_Name
+      value: Gutter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842393692293554157, guid: b1a593e3045fe4f18b61d7ee009a9176, type: 3}
+      propertyPath: m_TagString
       value: Gutter
       objectReference: {fileID: 0}
     - target: {fileID: 6592803070260301102, guid: b1a593e3045fe4f18b61d7ee009a9176, type: 3}
