@@ -46,6 +46,15 @@ public class BallController : MonoBehaviour
         ballRigidBody.isKinematic = true;
     }
 
+    void Update()
+    {
+        if (!isBallLaunched)
+        {
+            // Keep ball position exactly in sync with player
+            transform.position = ballAnchor.position;
+        }
+    }
+
     private void LaunchBall()
     {
         if (isBallLaunched || isInGutter) return; // Prevent multiple launches
@@ -62,26 +71,25 @@ public class BallController : MonoBehaviour
     }
 
     public void SetInGutter(bool value)
-{
-    isInGutter = value;
-    if (value)
     {
-        // **Force ball to remain centered**
-        Vector3 currentVelocity = ballRigidBody.linearVelocity;
-        currentVelocity.x = 0f; // Completely remove sideways drift
-        currentVelocity.y = 0f; // Stop bouncing
-        currentVelocity.z = Mathf.Max(currentVelocity.z, 5f); // Keep moving forward smoothly
-        ballRigidBody.linearVelocity = currentVelocity;
-
-        // **Force Launch Indicator to remain centered**
-        if (launchIndicator != null)
+        isInGutter = value;
+        if (value)
         {
-            Vector3 launchIndicatorPosition = launchIndicator.position;
-            launchIndicatorPosition.x = transform.position.x; // Keep it centered
-            launchIndicatorPosition.y = transform.position.y + 0.1f; // Prevent clipping issues
-            launchIndicator.position = launchIndicatorPosition;
+            // **Force ball to remain centered**
+            Vector3 currentVelocity = ballRigidBody.linearVelocity;
+            currentVelocity.x = 0f; // Completely remove sideways drift
+            currentVelocity.y = 0f; // Stop bouncing
+            currentVelocity.z = Mathf.Max(currentVelocity.z, 5f); // Keep moving forward smoothly
+            ballRigidBody.linearVelocity = currentVelocity;
+
+            // **Force Launch Indicator to remain centered**
+            if (launchIndicator != null)
+            {
+                Vector3 launchIndicatorPosition = launchIndicator.position;
+                launchIndicatorPosition.x = transform.position.x; // Keep it centered
+                launchIndicatorPosition.y = transform.position.y + 0.1f; // Prevent clipping issues
+                launchIndicator.position = launchIndicatorPosition;
+            }
         }
     }
-}
-
 }
