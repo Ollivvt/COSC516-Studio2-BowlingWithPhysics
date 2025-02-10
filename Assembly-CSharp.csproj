@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scipts/Player.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scipts/FallTrigger.cs" />
     <Compile Include="Assets/Scipts/Gutter.cs" />
     <Compile Include="Assets/Scipts/BallController.cs" />
     <Compile Include="Assets/Scipts/LaunchIndicator.cs" />
