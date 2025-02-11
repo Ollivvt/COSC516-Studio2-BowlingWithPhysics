@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class BallController : MonoBehaviour
 {
-    [SerializeField] private float force = 10f;
+    [SerializeField] private float force = 11f;
     [SerializeField] private Transform ballAnchor;
     [SerializeField] private Transform launchIndicator;
 
