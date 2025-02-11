@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 {
     public UnityEvent<Vector2> OnMove = new UnityEvent<Vector2>();
     public UnityEvent OnSpacePressed = new UnityEvent();
+    public UnityEvent OnResetPressed = new UnityEvent();
 
     private void Update()
     {
@@ -19,5 +20,11 @@ public class InputManager : MonoBehaviour
         if (Input.GetKey(KeyCode.D)) input += Vector2.right;
         
         OnMove?.Invoke(input);
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            //Debug.Log("Reset key (R) detected");
+            OnResetPressed?.Invoke();
+        }
     }
 }

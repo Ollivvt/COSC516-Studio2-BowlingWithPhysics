@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4909967288491454095}
   m_Layer: 0
   m_Name: PinCollection
-  m_TagString: Untagged
+  m_TagString: PinCollection
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,6 +53,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2509564649838200357, guid: 204cc2212e58a44cb91a48007d84d74f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3125486459370515257, guid: 204cc2212e58a44cb91a48007d84d74f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.01
@@ -91,6 +95,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3125486459370515257, guid: 204cc2212e58a44cb91a48007d84d74f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357906537532252724, guid: 204cc2212e58a44cb91a48007d84d74f, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -155,6 +163,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4340749083647431170, guid: 97e2fc9d30c6a468abf7002d10985656, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268652062237366028, guid: 97e2fc9d30c6a468abf7002d10985656, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -176,6 +192,10 @@ PrefabInstance:
     - target: {fileID: 594585390959030884, guid: a9f6e8e7910c34328b4f36b26996552d, type: 3}
       propertyPath: m_Name
       value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 594585390959030884, guid: a9f6e8e7910c34328b4f36b26996552d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4535983163833162582, guid: a9f6e8e7910c34328b4f36b26996552d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -217,6 +237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8501261648913850980, guid: a9f6e8e7910c34328b4f36b26996552d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -235,6 +259,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4909967288491454095}
     m_Modifications:
+    - target: {fileID: 1892116381587333945, guid: 89cef5f734f5e47bdbb98f52c30e1fb5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5570797965997430825, guid: 89cef5f734f5e47bdbb98f52c30e1fb5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.05
@@ -279,6 +307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7143583145197426655, guid: 89cef5f734f5e47bdbb98f52c30e1fb5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -300,6 +332,14 @@ PrefabInstance:
     - target: {fileID: 1741879831215752081, guid: 5766c49cbeb724e99b04d0b441ff542c, type: 3}
       propertyPath: m_Name
       value: Pin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741879831215752081, guid: 5766c49cbeb724e99b04d0b441ff542c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460663408091431465, guid: 5766c49cbeb724e99b04d0b441ff542c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8653970082838032964, guid: 5766c49cbeb724e99b04d0b441ff542c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,6 +403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1282878753305482257, guid: d947bc8e950094849bab4de6a9d038b3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2555075580581004451, guid: d947bc8e950094849bab4de6a9d038b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.39
@@ -403,6 +447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7702610072029968199, guid: d947bc8e950094849bab4de6a9d038b3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -424,6 +472,14 @@ PrefabInstance:
     - target: {fileID: 572551280208402845, guid: e6b2e79dfad0247d9ab0c16ae5dd1d58, type: 3}
       propertyPath: m_Name
       value: Pin (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 572551280208402845, guid: e6b2e79dfad0247d9ab0c16ae5dd1d58, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134769332376667065, guid: e6b2e79dfad0247d9ab0c16ae5dd1d58, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8950586263190869515, guid: e6b2e79dfad0247d9ab0c16ae5dd1d58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -527,6 +583,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3219901433567786762, guid: d80177a07815e41648826daacf4a0b54, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088410376151785173, guid: d80177a07815e41648826daacf4a0b54, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -589,6 +653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5577436099507964730, guid: e82519b27180741f58e43243aededcc1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097023840697550683, guid: e82519b27180741f58e43243aededcc1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -647,9 +719,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4196701331711318200, guid: 637089eed155641b9b0e60db0ae4be7f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5768261587815963467, guid: 637089eed155641b9b0e60db0ae4be7f, type: 3}
       propertyPath: m_Name
       value: Pin (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5768261587815963467, guid: 637089eed155641b9b0e60db0ae4be7f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

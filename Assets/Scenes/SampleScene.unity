@@ -227,6 +227,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &238560458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238560459}
+  m_Layer: 0
+  m_Name: PinAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &238560459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238560458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -42.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1889,9 @@ MonoBehaviour:
   OnSpacePressed:
     m_PersistentCalls:
       m_Calls: []
+  OnResetPressed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1810365473
 Transform:
   m_ObjectHideFlags: 0
@@ -1885,6 +1919,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4591bf0d477114cc9a4577c9ae26332a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  ball: {fileID: 587918770}
+  pinCollection: {fileID: 929541716687806921, guid: af5656de69fc64f17b93a96ef1976f94, type: 3}
+  pinAnchor: {fileID: 238560459}
+  inputManager: {fileID: 1810365472}
   scoreText: {fileID: 369973154}
 --- !u!1 &1870226405
 GameObject:
@@ -2308,3 +2347,4 @@ SceneRoots:
   - {fileID: 188224449}
   - {fileID: 1671051126}
   - {fileID: 1531455471}
+  - {fileID: 238560459}

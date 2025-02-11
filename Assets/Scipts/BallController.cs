@@ -44,6 +44,7 @@ public class BallController : MonoBehaviour
         transform.parent = ballAnchor;
         transform.localPosition = Vector3.zero;
         ballRigidBody.isKinematic = true;
+        ResetBall();
     }
 
     void Update()
@@ -91,5 +92,18 @@ public class BallController : MonoBehaviour
                 launchIndicator.position = launchIndicatorPosition;
             }
         }
+    }
+
+    public void ResetBall()
+    {
+        isBallLaunched = false;
+
+        // Make ball kinematic so it doesn't interact with physics
+        ballRigidBody.isKinematic = true;
+        launchIndicator.gameObject.SetActive(true);
+
+        // Reposition ball at its anchor
+        transform.parent = ballAnchor;
+        transform.localPosition = Vector3.zero;
     }
 }
